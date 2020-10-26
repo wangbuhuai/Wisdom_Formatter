@@ -1,0 +1,27 @@
+/* Created by Dayu Wang (dwang@stchas.edu) on 2020-10-26 */
+
+/* Last updated by Dayu Wang (dwang@stchas.edu) on 2020-10-26 */
+
+
+input {
+    border-width:1px;
+    border-style:solid;
+    display:inline-block;
+}
+
+input:focus {
+    outline:none;
+}
+
+button {
+    border:none;
+    border-radius:5px;
+    display:inline-block;
+    color:white;
+    padding:3pt;
+    width:40pt;
+}
+
+button:focus {
+    outline:none;
+}
