@@ -119,6 +119,7 @@ window.onload = function() {
 
     document.onkeyup = function(e) {
         if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "K") { pasteToInput(); }
+        if (e.ctrlKey && !e.shiftKey && !e.altKey && e.key.toUpperCase() === "V") { pasteToInput(); }
         if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "U") { copyUnderscore(); }
         if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "L") { copyViewLink(); }
         if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "D") { copyDownloadLink(); }

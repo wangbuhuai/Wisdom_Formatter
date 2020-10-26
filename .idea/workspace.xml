@@ -28,6 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -51,6 +52,7 @@
       <updated>1603692931472</updated>
       <workItem from="1603692933083" duration="159000" />
       <workItem from="1603693097439" duration="9430000" />
+      <workItem from="1603704955417" duration="155000" />
     </task>
     <servers />
   </component>
