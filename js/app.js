@@ -1,6 +1,6 @@
 // Created by Dayu Wang (dwang@stchas.edu) on 2020-10-26
 
-// Last updated by Dayu Wang (dwang@stchas.edu) on 2020-10-26
+// Last updated by Dayu Wang (dwang@stchas.edu) on 2020-10-28
 
 
 function pasteToInput() {
@@ -118,11 +118,10 @@ window.onload = function() {
     document.getElementById("download").addEventListener("click", function() { copyDownloadLink(); });
 
     document.onkeyup = function(e) {
-        if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "K") { pasteToInput(); }
         if (e.ctrlKey && !e.shiftKey && !e.altKey && e.key.toUpperCase() === "V") { pasteToInput(); }
         if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "U") { copyUnderscore(); }
         if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "L") { copyViewLink(); }
-        if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "D") { copyDownloadLink(); }
+        if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "K") { copyDownloadLink(); }
         if (e.ctrlKey && e.shiftKey && e.key.toUpperCase() === "Q") { copyOriginalInput(); }
         if (e.key.toUpperCase() === "TAB") {
             document.getElementById("inputText").focus();
